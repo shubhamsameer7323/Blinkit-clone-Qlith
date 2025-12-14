@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.headerLeft{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 24px 30px;
+    border-right: 1px solid #ccc;
+}
+.headerAddress{
+    padding: 20px 30px;
+}
+.headerAddress h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.headerAddress p{
+    font-size: 14px;
+}
+.searchBox{
+    flex-grow: 1;
+    background-color: #f8f8f8;
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid #f4f4f4;
+}
+.searchBox button{
+    padding: 15px;
+    border: none;
+    background: transparent;
+}
+.searchBox input{
+    flex-grow: 1;
+    border: none;
+    background: transparent;
+}
+.searchBox input:focus{
+    outline: none;
+}
+.headerBtn{
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+}
+.headerBtn button{
+    padding: 15px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+}
+.headerBtn button:last-child{
+    color: white;
+    border-radius: 5px ;
+    background-color: rgb(12, 131, 31) ;
+}
+
+
+/* Banner Section */
+.bannerSection{
+    max-width: 1280px;
+    margin: 0px auto;
+}
+.bannerSection img{
+    width: 100%;
+}
+
+.orderBanner{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+}
+.orderBannerItems{
+    flex-basis: 27%;
+    margin: 1%;
+}
+.orderBannerItems img{
+    width: 100%;
+}
+
+/* CAtegory Section */
+
+.categorySection{
+    max-width: 1280px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+}
+.categoryItems{
+    flex-basis: 10%;
+}
+.categoryItems img{
+    width: 100%;
+}
+
+/* Product Section */
+.productSection{
+    max-width: 1280px;
+    margin: auto;
+    padding: 30px 0px;
+}
+.headingRow{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.headingRow h2{
+    font-size: 22px;
+}
+.headingRow a{
+    color: #328839;
+    font-size: 18px;
+}
+.productRow{
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    gap: 2%;
+
+}
+.productItems{
+    flex-basis: 15%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px #fcfcfc;
+}
+.productImg{
+
+    text-align: center;
+    padding: 15px;
+}
+.productImg p{
+    background-color:#f8f8f8 ;
+    display: flex;
+    width: 60px;
+    gap: 5px;
+    justify-content: center;
+    padding: 2px;
+    align-items: center;
+    font-size: 12px;
+    text-align: left;
+}
+.productContent{
+    padding: 15px;
+    padding-top: 0px;
+}
+.productContent h3{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.productContent p{
+    font-size: 14px;
+    color: #848080;
+}
+.btn-price-outer{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.btn-price-outer button{
+    border: 1px solid #328839;
+    background-color: #f7fff9;
+    border-radius: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.btn-price-outer button:hover{
+    background-color: #328839;
+    color: white;
+}
+
+/* Footer Section */
+.footer{
+    padding: 40px 0px 0px 0px;
+}
+.footer-mid{
+    max-width: 1280px;
+    margin: auto;
+}
+.footer-mid-row1{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+.footer-mid-row1-left{
+    flex-basis: 30%;
+}
+.footer-mid-row1-left h3{
+    margin-bottom: 20px;
+}
+.footer-mid-row1-right{
+    flex-basis: 70%;
+}
+
+.usefulLinks{
+    display: flex;
+}
+.usefulLinks ul{
+    flex-basis: 30%;
+    list-style: none;
+}
+.usefulLinks ul li a{
+   font-size: 14px;
+   display: block;
+   color: rgb(102, 102, 102);
+    margin-bottom: 15px;
+}
+.CategoriesHeadingRow{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 15px;
+    align-items: center;
+}
+.footer-mid-row2{
+    background-color: #fcfcfc;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+.footer-mid-row2 p{
+    flex-basis: 40%;
+    font-size: 14px;
+    text-align: center;
+}
+.appIcons{
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sLinks{
+    display: flex;
+    gap: 10px;
+}
+
+.sLinks i{
+    width: 40px;
+    color: white;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1f1f;
+}
+
+.footer-mid-row3 p{
+    padding: 20px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(102, 102, 102);
+}
